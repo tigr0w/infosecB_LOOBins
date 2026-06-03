@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://infosecb.github.io',
-  base: '/LOOBins',
+  site: 'https://loobins.io',
+  base: '/',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
